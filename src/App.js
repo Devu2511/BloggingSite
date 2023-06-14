@@ -2,7 +2,7 @@ import Container from '@mui/material/Container';
 
 import './App.css';
 import Header from './Components/Header';
-import { Grid, createTheme } from '@mui/material';
+import { Divider, Grid, createTheme } from '@mui/material';
 import { ThemeProvider } from '@emotion/react';
 import FeaturedPost from './Components/FeaturedPost';
 import { featuredPosts, sidebar } from './Data/Data';
@@ -40,7 +40,7 @@ function App() {
           social={sidebar.social}
           />
         </Grid>
-
+          <Divider/>
 
         </Container>
 

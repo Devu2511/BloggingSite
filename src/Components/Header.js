@@ -1,4 +1,4 @@
-import { Badge, Divider, IconButton, Toolbar, Typography} from '@mui/material'
+import { Divider, IconButton, Toolbar, Typography} from '@mui/material'
 import React from 'react'
 import MenuIcon from '@mui/icons-material/Menu';
 import NotificationsIcon from '@mui/icons-material/Notifications';
@@ -15,9 +15,9 @@ const Header = () => {
             </IconButton>
             <Typography variant='h6' style={{flexGrow:"1", fontWeight:"Bold"}}>Blogging Website</Typography>
             <IconButton color='inherit'>
-                <Badge badgeContent={4} color="primary">
-                    <NotificationsIcon />
-                </Badge>
+                
+                <NotificationsIcon />
+                
             </IconButton>
             <IconButton color='inherit'>
                 <AccountCircleIcon />
